@@ -14,5 +14,5 @@ else:
     elif male_female == "męskie":
         man.append(name)
 
-print("Znane imienia męskie:", man)
+print("Znane imienia meskie:", man)
 print("Znane imienia żeńskie:", women)
