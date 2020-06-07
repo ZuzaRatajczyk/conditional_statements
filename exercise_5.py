@@ -9,13 +9,19 @@ if a + b > c and a + c > b and b + c > a:
         c = a
         if a**2 + b**2== c**2:
             print("Trójkąt pitagorejski")
+            if a/b/c == 3/4/5:
+                print("Trójkąt egipski")
     if a < b > c:
         b = c
         c = b
         if a ** 2 + b ** 2 == c ** 2:
             print("Trójkąt pitagorejski")
+            if a/b/c == 3/4/5:
+                print("Trójkąt egipski")
     if a ** 2 + b ** 2 == c ** 2:
         print("Trójkąt pitagorejski")
+        if a / b / c == 3 / 4 / 5:
+            print("Trójkąt egipski")
     else:
         print("Trójkąt niepitagorejski")
 else:
